@@ -1,4 +1,4 @@
-# Intro-to-CS50-Lab-1-Python
+# Intro-to-CS50-Lab-1 and problem set mario-Python
 Population Growth
 #Input 
 #Input 
@@ -26,4 +26,16 @@ years= len(List)
 
 #Output
 print("The number of years is : ",years)
-    
+
+#Mario blocks
+height = int(input("Enter the height of pyramid: "))
+for i in range(0, height):
+    for j in range(0, height-i):
+        print (".", end = " ")
+    for k in range(0, i+1):
+        print("#", end = " ")
+    print("  ", end = " ")
+    for l in range(0, i+1):
+        print("#", end = " ")
+    print()
+
